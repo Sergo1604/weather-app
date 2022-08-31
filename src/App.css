@@ -1,12 +1,13 @@
 body{
-    background:  center url(./img/road-1072823_960_720.jpg) round no-repeat;
+    background:  center url(./img/road-1072823_960_720.jpg);
 
 }
 .container {
     margin: 10%  auto;
     width:60%;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
+    flex-wrap: wrap;
     background-color:   rgb(0,0,0,0.2);
 }
 
